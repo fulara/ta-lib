@@ -1,9 +1,15 @@
 [package]
 name = "ta-lib"
-version = "0.1.0"
-authors = ["fulara <ntszar@gmail.com>"]
+version = "0.0.1"
 build="build.rs"
 include = ["ta-lib/**/*"]
+
+authors = ["fulara <ntzar@gmail.com>"]
+repository = "https://github.com/fulara/ta-lib"
+keywords = ["ta-lib", "financial" , "technical", "analysis"]
+readme = "README.md"
+license = "BSD-3-Clause"
+description = "ta-lib bindings for rust"
 
 [dependencies]
 libc = "0.2.20"
