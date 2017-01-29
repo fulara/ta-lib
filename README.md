@@ -1,4 +1,4 @@
-# ta-lib
+# ta-lib [![Build Status](https://img.shields.io/crates/v/ta-lib.svg)](https://crates.io/crates/ta-lib)
 rust wrapper for ta-lib http://ta-lib.org/
 
 currently exports only
