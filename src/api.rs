@@ -20,7 +20,6 @@ pub fn sma(start_idx: usize, end_idx: usize, in_data: &[f64], period: usize, out
 
 #[cfg(test)]
 mod tests {
-    use std::ptr;
 
     #[test]
     fn sma_test() {
